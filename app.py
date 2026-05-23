@@ -250,7 +250,7 @@ with st.sidebar:
 
 if tipo == "Imagem":
     uploaded_file = st.file_uploader(
-        "Escolhe uma imagem",
+        "Escolha uma imagem",
         type=["jpg", "jpeg", "png"]
     )
 
@@ -295,7 +295,7 @@ if tipo == "Imagem":
 
 else:
     uploaded_video = st.file_uploader(
-        "Escolhe um vídeo",
+        "Escolha um vídeo",
         type=["mp4", "mov", "avi"]
     )
 
